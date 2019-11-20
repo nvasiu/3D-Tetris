@@ -197,7 +197,7 @@ void Board::deleteFinishedLines() { // Check for lines that are completely fille
 			if (tiles[y][x] == 0) break;
 			x++;
 		}
-		
+
 		if (x == columns) { // If the entire row is filled then drop all rows above it
 			for (int aboveY = y; aboveY < rows-1; aboveY++) {
 				for (int aboveX = 0; aboveX < columns; aboveX++) {
