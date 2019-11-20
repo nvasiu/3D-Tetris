@@ -1,4 +1,4 @@
-Nicholas Vasiu
+#Nicholas Vasiu
 
 #Instructions:
 The timer to the right of the board will count down to 0. When it does the current game piece will be put down.
